@@ -1,0 +1,24 @@
+# This is the server motd.
+Server-MOTD:
+  Line-1: '&b&l                Celestial'
+  Line-2: '&e&lНаш сайт &fmc-celestial.teafear.by'
+
+# The motd of the player when they join in.
+JoinGame-MOTD:
+  Enabled: true
+  # Check forum for placeholders.
+  # Supported for PlaceholderAPI placeholders.
+  Messages:
+  - '&eДобро пожаловать на сервер.'
+
+# Server icon.
+Custom-Server-Icon:
+  # Set to true will load image from motd folder.
+  Enabled: false
+  # Make sure it's 64 x 64 pixels with png format.
+  Image: server-icon.png
+
+# The maximum players of the server.
+Server-Maximum-Players:
+  Modify: true
+  Maximum-Players: 228

@@ -1,0 +1,15 @@
+{
+  "_comment1": "You can set your brand message. This can be an array of made of a single string to make it static or can be a list of",
+  "_comment2": "strings to create an animation or make it change with a specified period.",
+  "_comment3": "These strings can contain Chat color codes (Hexadecimal values are not supported) and can contain tags that will be replaced",
+  "_comment4": "automatically by the plugin; these tags are:",
+  "_comment5": "{name} - replaced with the player's name",
+  "_comment6": "{displayname} - replaced with te player's display name",
+  "_comment7": "{server} - replaced with the name of player's the server (ONLY BUNGEECORD)",
+  "_comment8": "{spigot} - replaced with the spigot one (ONLY BUNGEECORD)",
+  "_comment9": "Any placeholder by PlaceholderAPI (ONLY SPIGOT)",
+  "f3_brand": [
+    "&6Celestial &f - бро зачем тебе знать какое ядро сервера? ",
+  ],
+  "update_period": 50
+}

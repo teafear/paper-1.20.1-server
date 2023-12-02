@@ -1,0 +1,215 @@
+[16:48:01] [ServerMain/WARN]: [oshi.driver.windows.perfmon.PerfmonDisabled] Invalid registry value type detected for PerfOS counters. Should be REG_DWORD. Ignoring: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PerfOS\Performance\Disable Performance Counters.
+[16:48:13] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[16:48:27] [ServerMain/INFO]: Loaded 7 recipes
+[16:48:29] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[16:48:29] [Server thread/INFO]: Loading properties
+[16:48:29] [Server thread/INFO]: This server is running Paper version git-Paper-196 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: 773dd72)
+[16:48:30] [Server thread/INFO]: Using 4 threads for Netty based IO
+[16:48:30] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[16:48:30] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[16:48:30] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[16:48:30] [Server thread/INFO]: Default game type: SURVIVAL
+[16:48:30] [Server thread/INFO]: Generating keypair
+[16:48:30] [Server thread/INFO]: Starting Minecraft server on *:25565
+[16:48:30] [Server thread/INFO]: Using default channel type
+[16:48:30] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[16:48:30] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[16:48:31] [Server thread/INFO]: [SpigotLibraryLoader] [FacilisCommon] Loading 4 libraries... please wait
+[16:48:31] [Server thread/INFO]: [SpigotLibraryLoader] [FacilisCommon] Loaded library C:\project\server\mc\1.20.1\paper\libraries\net\kyori\adventure-api\4.13.0\adventure-api-4.13.0.jar
+[16:48:31] [Server thread/INFO]: [SpigotLibraryLoader] [FacilisCommon] Loaded library C:\project\server\mc\1.20.1\paper\libraries\net\kyori\adventure-key\4.13.0\adventure-key-4.13.0.jar
+[16:48:31] [Server thread/INFO]: [SpigotLibraryLoader] [FacilisCommon] Loaded library C:\project\server\mc\1.20.1\paper\libraries\net\kyori\examination-api\1.3.0\examination-api-1.3.0.jar
+[16:48:31] [Server thread/INFO]: [SpigotLibraryLoader] [FacilisCommon] Loaded library C:\project\server\mc\1.20.1\paper\libraries\net\kyori\examination-string\1.3.0\examination-string-1.3.0.jar
+[16:48:31] [Server thread/INFO]: [SpigotLibraryLoader] [FacilisCommon] Loaded library C:\project\server\mc\1.20.1\paper\libraries\org\jetbrains\annotations\24.0.1\annotations-24.0.1.jar
+[16:48:31] [Server thread/INFO]: [SpigotLibraryLoader] [FacilisCommon] Loaded library C:\project\server\mc\1.20.1\paper\libraries\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar
+[16:48:31] [Server thread/INFO]: [SpigotLibraryLoader] [FacilisCommon] Loaded library C:\project\server\mc\1.20.1\paper\libraries\commons-io\commons-io\2.10.0\commons-io-2.10.0.jar
+[16:48:31] [Server thread/INFO]: [SpigotLibraryLoader] [FacilisCommon] Loaded library C:\project\server\mc\1.20.1\paper\libraries\org\apache\maven\maven-artifact\3.6.0\maven-artifact-3.6.0.jar
+[16:48:31] [Server thread/INFO]: [SpigotLibraryLoader] [FacilisCommon] Loaded library C:\project\server\mc\1.20.1\paper\libraries\org\codehaus\plexus\plexus-utils\3.1.0\plexus-utils-3.1.0.jar
+[16:48:31] [Server thread/INFO]: [ProtocolLib] Loading server plugin ProtocolLib v5.1.0
+[16:48:33] [Server thread/INFO]: [DICore] Loading server plugin DICore v2.4.1
+[16:48:33] [Server thread/INFO]: [WorldsColor] Loading server plugin WorldsColor v1.0.5
+[16:48:33] [Server thread/INFO]: [TAB] Loading server plugin TAB v4.0.9
+[16:48:33] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.0.3
+[16:48:33] [Server thread/INFO]: [PlasmoVoice] Loading server plugin PlasmoVoice v2.0.7
+[16:48:33] [Server thread/INFO]: [MOTD] Loading server plugin MOTD v2.3.10
+[16:48:33] [Server thread/INFO]: [MinecraftDashboard] Loading server plugin MinecraftDashboard v1.1.7
+[16:48:33] [Server thread/INFO]: [Harbor] Loading server plugin Harbor v1.6.3
+[16:48:33] [Server thread/INFO]: [FacilisCommon] Loading server plugin FacilisCommon v1.0.2-SNAPSHOT
+[16:48:33] [Server thread/INFO]: [emotecraft] Loading server plugin emotecraft v2.2.0
+[16:48:34] [Server thread/INFO]: [DILogin] Loading server plugin DILogin v3.4.1
+[16:48:34] [Server thread/INFO]: [CustomF3Brand] Loading server plugin CustomF3Brand v1.1.3
+[16:48:34] [Server thread/INFO]: [craftableinvframes] Loading server plugin craftableinvframes v${project.version}
+[16:48:34] [Server thread/INFO]: [AutoMessage] Loading server plugin AutoMessage v1.0
+[16:48:34] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[16:48:34] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.1.0
+[16:48:34] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.0.3
+[16:48:35] [Server thread/INFO]: [SkinsRestorer] Detected Minecraft v1_20_R1, using PaperSkinRefresher.
+[16:48:35] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[16:48:35] [Server thread/INFO]: [PlasmoVoice] Enabling PlasmoVoice v2.0.7
+[16:48:36] [Server thread/INFO]: [PlasmoVoice] UDP server is started on /[0:0:0:0:0:0:0:0]:12000
+[16:48:37] [Server thread/INFO]: [MOTD] Enabling MOTD v2.3.10
+[16:48:38] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16:48:38] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[16:48:38] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[16:48:38] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[16:48:38] [Server thread/INFO]: Preparing level "lobby"
+[16:48:40] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[16:48:40] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[16:48:40] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[16:48:40] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |------------------|
+[16:48:40] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[16:48:40] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +==================+
+[16:48:40] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[16:48:40] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Current version: 15.0.3
+[16:48:40] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: aa377c1
+[16:48:40] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[16:48:40] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[16:48:48] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[16:48:48] [Server thread/INFO]: Time elapsed: 165 ms
+[16:48:48] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[16:48:48] [Server thread/INFO]: Time elapsed: 106 ms
+[16:48:48] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[16:48:48] [Server thread/INFO]: Time elapsed: 93 ms
+[16:48:48] [Server thread/INFO]: [DICore] Enabling DICore v2.4.1
+[16:48:48] [Server thread/INFO]: [DICore] Plugin started
+[16:48:48] [Server thread/INFO]: [DICore] Starting Bot
+[16:48:52] [Server thread/INFO]: [net.dv8tion.jda.api.JDA] Login Successful!
+[16:48:55] [JDA MainWS-ReadThread/INFO]: [net.dv8tion.jda.internal.requests.WebSocketClient] Connected to WebSocket
+[16:48:56] [JDA MainWS-ReadThread/INFO]: [net.dv8tion.jda.api.JDA] Finished Loading!
+[16:48:56] [Server thread/INFO]: [DICore] Bot started
+[16:48:56] [Server thread/INFO]: [WorldsColor] Enabling WorldsColor v1.0.5
+[16:48:56] [Server thread/ERROR]: Error occurred while enabling WorldsColor v1.0.5 (Is it up to date?)
+java.lang.NullPointerException: Cannot invoke "ru.mrh1tech.worldscolor.informations.ScoreboardInfo.getScoreboard()" because the return value of "ru.mrh1tech.worldscolor.WorldsColor.getScoreboardInfo()" is null
+	at ru.mrh1tech.worldscolor.services.colorchangers.ColorChangerServiceTeams.<init>(ColorChangerServiceTeams.java:14) ~[WorldsColor-1.0.5.jar:?]
+	at ru.mrh1tech.worldscolor.WorldsColor.initializeColorChangerService(WorldsColor.java:74) ~[WorldsColor-1.0.5.jar:?]
+	at ru.mrh1tech.worldscolor.WorldsColor.onEnable(WorldsColor.java:41) ~[WorldsColor-1.0.5.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:281) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:189) ~[paper-1.20.1.jar:git-Paper-196]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:104) ~[paper-1.20.1.jar:git-Paper-196]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:507) ~[paper-api-1.20.1-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugin(CraftServer.java:642) ~[paper-1.20.1.jar:git-Paper-196]
+	at org.bukkit.craftbukkit.v1_20_R1.CraftServer.enablePlugins(CraftServer.java:553) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:635) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:434) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:308) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1100) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.20.1.jar:git-Paper-196]
+	at java.lang.Thread.run(Unknown Source) ~[?:?]
+[16:48:56] [Server thread/INFO]: [WorldsColor] Disabling WorldsColor v1.0.5
+[16:48:56] [Server thread/INFO]: [TAB] Enabling TAB v4.0.9
+[16:48:57] [Server thread/INFO]: [TAB] Enabled in 925ms
+[16:48:57] [Server thread/INFO]: [MinecraftDashboard] Enabling MinecraftDashboard v1.1.7
+[16:49:03] [Server thread/INFO]: [org.reflections.Reflections] Reflections took 73 ms to scan 1 urls, producing 2 keys and 34 values
+[16:49:06] [Server thread/INFO]: [Harbor] Enabling Harbor v1.6.3
+[16:49:06] [Server thread/INFO]: [Harbor] Essentials not present- registering fallback AFK detection system.
+[16:49:06] [Server thread/INFO]: [FacilisCommon] Enabling FacilisCommon v1.0.2-SNAPSHOT
+[16:49:06] [Server thread/INFO]: [emotecraft] Enabling emotecraft v2.2.0
+[16:49:06] [Server thread/INFO]: [emotecraft] Loading Emotecraft as a bukkit plugin...
+[16:49:06] [Server thread/INFO]: [DILogin] Enabling DILogin v3.4.1
+[16:49:06] [Server thread/INFO]: [DILogin] Plugin started
+[16:49:06] [Server thread/INFO]: [DICore] DICore has successfully connected with DILogin
+[16:49:06] [Server thread/INFO]: [DILogin] Database connection type: SQLITE
+[16:49:06] [Server thread/INFO]: [CustomF3Brand] Enabling CustomF3Brand v1.1.3
+[16:49:06] [Server thread/INFO]: §ePlaceholderAPI not found.
+[16:49:06] [Server thread/INFO]: [craftableinvframes] Enabling craftableinvframes v${project.version}
+[16:49:07] [Server thread/INFO]: [AutoMessage] Enabling AutoMessage v1.0
+[16:49:07] [Server thread/INFO]: Running delayed init tasks
+[16:49:07] [Server thread/INFO]: Done (38.464s)! For help, type "help"
+[16:49:07] [Server thread/INFO]: Timings Reset
+[16:49:12] [Server thread/INFO]: Êîí÷ èíàòîôô èñïîëüçóé ! ÷òîáû íàïèñàòü â ãëîáàë ÷àò
+[16:49:13] [User Authenticator #0/INFO]: UUID of player teafear is 500aede2-d191-3aee-919a-404b87f9c161
+[16:49:13] [Server thread/ERROR]: [CustomF3Brand] Unhandled exception occurred in onPacketSending(PacketEvent) for CustomF3Brand
+java.lang.NullPointerException: Cannot invoke "String.replace(java.lang.CharSequence, java.lang.CharSequence)" because the return value of "java.util.List.get(int)" is null
+	at it.multicoredev.f3.bukkit.BrandUpdater.send(BrandUpdater.java:74) ~[CustomF3Brand.jar:?]
+	at it.multicoredev.f3.bukkit.PacketListener.onPacketSending(PacketListener.java:55) ~[CustomF3Brand.jar:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokeSendingListener(SortedPacketListenerList.java:219) ~[ProtocolLib.jar:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokeUnpackedPacketSending(SortedPacketListenerList.java:204) ~[ProtocolLib.jar:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketSending(SortedPacketListenerList.java:149) ~[ProtocolLib.jar:?]
+	at com.comphenix.protocol.injector.SortedPacketListenerList.invokePacketSending(SortedPacketListenerList.java:139) ~[ProtocolLib.jar:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.postPacketToListeners(PacketFilterManager.java:553) ~[ProtocolLib.jar:?]
+	at com.comphenix.protocol.injector.PacketFilterManager.invokePacketSending(PacketFilterManager.java:526) ~[ProtocolLib.jar:?]
+	at com.comphenix.protocol.injector.netty.manager.NetworkManagerInjector.onPacketSending(NetworkManagerInjector.java:100) ~[ProtocolLib.jar:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector.processOutbound(NettyChannelInjector.java:565) ~[ProtocolLib.jar:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyChannelInjector$2.doProxyRunnable(NettyChannelInjector.java:468) ~[ProtocolLib.jar:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.proxyRunnable(NettyEventLoopProxy.java:43) ~[ProtocolLib.jar:?]
+	at com.comphenix.protocol.injector.netty.channel.NettyEventLoopProxy.execute(NettyEventLoopProxy.java:252) ~[ProtocolLib.jar:?]
+	at net.minecraft.network.Connection.sendPacket(Connection.java:449) ~[?:?]
+	at net.minecraft.network.Connection.send(Connection.java:392) ~[?:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.send(ServerGamePacketListenerImpl.java:2217) ~[?:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.send(ServerGamePacketListenerImpl.java:2203) ~[?:?]
+	at net.minecraft.server.players.PlayerList.placeNewPlayer(PlayerList.java:291) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.placeNewPlayer(ServerLoginPacketListenerImpl.java:202) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.handleAcceptedLogin(ServerLoginPacketListenerImpl.java:183) ~[?:?]
+	at net.minecraft.server.network.ServerLoginPacketListenerImpl.tick(ServerLoginPacketListenerImpl.java:85) ~[?:?]
+	at net.minecraft.network.Connection.tick(Connection.java:602) ~[?:?]
+	at net.minecraft.server.network.ServerConnectionListener.tick(ServerConnectionListener.java:234) ~[?:?]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1586) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:446) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1393) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1170) ~[paper-1.20.1.jar:git-Paper-196]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:317) ~[paper-1.20.1.jar:git-Paper-196]
+	at java.lang.Thread.run(Unknown Source) ~[?:?]
+[16:49:13] [Server thread/ERROR]: Parameters: 
+  net.minecraft.network.protocol.game.PacketPlayOutCustomPayload@10d83128[
+    t=minecraft:brand
+    u=UnpooledByteBufAllocator$InstrumentedUnpooledUnsafeHeapByteBuf(ridx: 6, widx: 6, cap: 256)
+  ]
+
+[16:49:13] [Server thread/INFO]: teafear joined the game
+[16:49:13] [Server thread/INFO]: teafear[/127.0.0.1:63023] logged in with entity id 24 at ([lobby]-841.8152802262451, 23.0, -819.4830666936043)
+[16:50:02] [Server thread/INFO]: teafear issued server command: /plugins
+[16:51:25] [Server thread/INFO]: teafear issued server command: /
+[16:52:35] [Server thread/INFO]: teafear issued server command: /panel 50358
+[16:54:12] [Async Chat Thread - #1/INFO]: [Not Secure] <teafear> 4234234
+[16:54:34] [Server thread/INFO]: teafear has made the advancement [We Need to Go Deeper]
+[16:56:02] [pool-11-thread-2/WARN]: Executing command "plugins"..
+[16:56:02] [Server thread/INFO]: Server Plugins (15):
+[16:56:02] [Server thread/INFO]: Bukkit Plugins:
+[16:56:02] [Server thread/INFO]:  - AutoMessage, craftableinvframes, CustomF3Brand, DICore, DILogin, emotecraft, FacilisCommon, Harbor, MinecraftDashboard, MOTD
+[16:56:02] [Server thread/INFO]:  PlasmoVoice, ProtocolLib, SkinsRestorer, TAB, WorldsColor
+[16:56:22] [Server thread/INFO]: Stopping the server
+[16:56:22] [Server thread/INFO]: Stopping server
+[16:56:22] [Server thread/INFO]: [AutoMessage] Disabling AutoMessage v1.0
+[16:56:22] [Server thread/INFO]: [craftableinvframes] Disabling craftableinvframes v${project.version}
+[16:56:22] [Server thread/INFO]: [CustomF3Brand] Disabling CustomF3Brand v1.1.3
+[16:56:22] [Server thread/INFO]: [DILogin] Disabling DILogin v3.4.1
+[16:56:22] [Server thread/INFO]: [emotecraft] Disabling emotecraft v2.2.0
+[16:56:22] [Server thread/INFO]: [FacilisCommon] Disabling FacilisCommon v1.0.2-SNAPSHOT
+[16:56:22] [Server thread/INFO]: [Harbor] Disabling Harbor v1.6.3
+[16:56:22] [Server thread/INFO]: [MinecraftDashboard] Disabling MinecraftDashboard v1.1.7
+[16:56:22] [Server thread/INFO]: [MOTD] Disabling MOTD v2.3.10
+[16:56:22] [Server thread/INFO]: [PlasmoVoice] Disabling PlasmoVoice v2.0.7
+[16:56:22] [Server thread/INFO]: [PlasmoVoice] UDP server is stopped
+[16:56:22] [Server thread/INFO]: [SkinsRestorer] Disabling SkinsRestorer v15.0.3
+[16:56:22] [Server thread/INFO]: [TAB] Disabling TAB v4.0.9
+[16:56:22] [Server thread/INFO]: [TAB] Disabled in 1ms
+[16:56:22] [Server thread/INFO]: [DICore] Disabling DICore v2.4.1
+[16:56:22] [Server thread/INFO]: [DICore] Plugin disabled
+[16:56:22] [Server thread/INFO]: [ProtocolLib] Disabling ProtocolLib v5.1.0
+[16:56:22] [Server thread/INFO]: Saving players
+[16:56:22] [Server thread/INFO]: teafear lost connection: Server closed
+[16:56:22] [Server thread/INFO]: teafear left the game
+[16:56:22] [Server thread/INFO]: Saving worlds
+[16:56:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[lobby]'/minecraft:overworld
+[16:56:22] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'lobby'
+[16:56:22] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'lobby'
+[16:56:22] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'lobby'
+[16:56:22] [Server thread/INFO]: [ChunkHolderManager] Saved 55 block chunks, 57 entity chunks, 0 poi chunks in world 'lobby' in 0,03s
+[16:56:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (lobby): All chunks are saved
+[16:56:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[lobby_nether]'/minecraft:the_nether
+[16:56:22] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'lobby_nether'
+[16:56:22] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'lobby_nether'
+[16:56:22] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'lobby_nether'
+[16:56:26] [Server thread/INFO]: [ChunkHolderManager] Saved 1665 block chunks, 190 entity chunks, 0 poi chunks in world 'lobby_nether' in 3,51s
+[16:56:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:56:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[lobby_the_end]'/minecraft:the_end
+[16:56:26] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'lobby_the_end'
+[16:56:26] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'lobby_the_end'
+[16:56:26] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'lobby_the_end'
+[16:56:28] [Server thread/INFO]: [ChunkHolderManager] Saved 1506 block chunks, 10 entity chunks, 0 poi chunks in world 'lobby_the_end' in 2,17s
+[16:56:28] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:56:28] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[16:56:28] [Server thread/INFO]: Flushing Chunk IO
+[16:56:28] [Server thread/INFO]: Closing Thread Pool
+[16:56:28] [Server thread/INFO]: Closing Server

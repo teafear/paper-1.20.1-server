@@ -1,0 +1,16 @@
+#Discord
+bot_token: MTEzMDI0OTkwNDM0Njg5MDMzMA.GTlyNq.Z_HKZHjiiGXjq7nf405u35hfgaHywflYsVDIY4
+discord_server_id: 1122973216852418680
+discord_server_prefix: '!'
+
+#Minecraft
+server_name: 'Celestial'
+
+#Bot status
+status_type: 1
+status_content: 'Тут %minecraft_players% игроков'
+
+#Bot Status type:
+#0 -> None
+#1 -> Updates when a player connects/disconnects
+#2 -> Updates every 5 minutes
