@@ -22,4 +22,70 @@
 // Частота обновления в тиках
 }
 
+## AutoMessage
+### config.yml
+```js
+timer: 2300 // Оюновления в секундах
+Random: false 
+UseTellRawMessages: false
+Messages:
+- '&eКонч инатофф используй ! чтобы написать в глобал чат'
+TellRawMessages:
+- '{"text":"[Get more info on TellRaws here: minecraft.tools/en/tellraw.php ]","color":"dark_purple"}'
+- '{"text":"[This is a test message!] ","color":"aqua"}'
+- '["",{"text":"Click me to open URL!","color":"red","bold":true,"underlined":false,"clickEvent":{"action":"open_url","value":"https://www.google.com"}}]'
+- '{"text":"Hover over me for help text!","color":"yellow","bold":true,"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"I
+  am a hint!","color":"yellow","bold":true}]}}}'
+- '{"text":"Click me to run help command!","color":"yellow","bold":true,"clickEvent":{"action":"run_command","value":"/help"}}'
+
+## MOTD
+### config.yml
+```js
+# This is the server motd.
+Server-MOTD:
+  Line-1: '&b&l                Celestial'
+  Line-2: '&e&lНаш сайт &fmc-celestial.teafear.by'
+
+# The motd of the player when they join in.
+JoinGame-MOTD:
+  Enabled: true
+  # Check forum for placeholders.
+  # Supported for PlaceholderAPI placeholders.
+  Messages:
+  - '&eДобро пожаловать на сервер.'
+
+# Server icon.
+Custom-Server-Icon:
+  # Set to true will load image from motd folder.
+  Enabled: false
+  # Make sure it's 64 x 64 pixels with png format.
+  Image: server-icon.png
+
+# The maximum players of the server.
+Server-Maximum-Players:
+  Modify: true
+  Maximum-Players: 228
+
+## TAB
+### config.yml
+```js
+header-footer:
+  enabled: true
+  header:
+  - <#f0f8ff>&m                                                </#FFFF00> //Ввеху черта грандиент зависит от цвета (html цвет)
+  - '&b&lCelestian'
+  - '&7Игроков: &f%online%👥'
+// Можно дополнить или написать что то свое
+  - ''
+  footer:
+  - '&7Пинг:&2 %ping% &7Тпс:&2 %tps%'  // пинг тпс
+  - ''
+  - <#f0f8ff>&m                                                </#FFFF00> //Снизучерта грандиент зависит от цвета (html цвет)
+
+## server.properties
+```js
+online-mode=false // значение true - вход только для лицензий
+spawn-protection=0 // защита спавна( поставил на 0 потому что а нахуй надо
+
+### Написал 5eafear 03.12.2023 /2.57
 
