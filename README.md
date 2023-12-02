@@ -1,7 +1,9 @@
 ![Header](https://github.com/5eafear/celestial_server/blob/main/img/Group%201.png)
 
 ![Header](https://github.com/5eafear/celestial_server/blob/main/img/Group%202.png)
-
+# Тутор по настройке
+## CustomF3Brand
+### config.json
 ```js
 {
   "_comment1": "You can set your brand message. This can be an array of made of a single string to make it static or can be a list of",
