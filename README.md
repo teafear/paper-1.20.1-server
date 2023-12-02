@@ -16,7 +16,7 @@
   "_comment8": "{spigot} - replaced with the spigot one (ONLY BUNGEECORD)",
   "_comment9": "Any placeholder by PlaceholderAPI (ONLY SPIGOT)",
   "f3_brand": [
-    "&6Мое Ядро",
+    "&6Мое Ядро", // Указанное названия ядра
   ],
   "update_period": 50
 // Частота обновления в тиках
