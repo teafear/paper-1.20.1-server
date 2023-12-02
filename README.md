@@ -21,6 +21,7 @@
   "update_period": 50
 // Частота обновления в тиках
 }
+```
 
 ## AutoMessage
 ### config.yml
