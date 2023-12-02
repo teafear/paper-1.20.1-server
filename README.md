@@ -24,7 +24,7 @@
 
 ## AutoMessage
 ### config.yml
-```js
+```yml
 timer: 2300 // Оюновления в секундах
 Random: false 
 UseTellRawMessages: false
@@ -40,7 +40,7 @@ TellRawMessages:
 
 ## MOTD
 ### config.yml
-```js
+```yml
 # This is the server motd.
 Server-MOTD:
   Line-1: '&b&l                Celestial'
@@ -68,7 +68,7 @@ Server-Maximum-Players:
 
 ## TAB
 ### config.yml
-```js
+```yml
 header-footer:
   enabled: true
   header:
@@ -83,7 +83,7 @@ header-footer:
   - <#f0f8ff>&m                                                </#FFFF00> //Снизучерта грандиент зависит от цвета (html цвет)
 
 ## server.properties
-```js
+```properties
 online-mode=false // значение true - вход только для лицензий
 spawn-protection=0 // защита спавна( поставил на 0 потому что а нахуй надо
 
