@@ -38,7 +38,7 @@ TellRawMessages:
 - '{"text":"Hover over me for help text!","color":"yellow","bold":true,"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"I
   am a hint!","color":"yellow","bold":true}]}}}'
 - '{"text":"Click me to run help command!","color":"yellow","bold":true,"clickEvent":{"action":"run_command","value":"/help"}}'
-
+```
 ## MOTD
 ### config.yml
 ```yml
@@ -66,7 +66,7 @@ Custom-Server-Icon:
 Server-Maximum-Players:
   Modify: true
   Maximum-Players: 228
-
+```
 ## TAB
 ### config.yml
 ```yml
@@ -82,7 +82,7 @@ header-footer:
   - '&7Пинг:&2 %ping% &7Тпс:&2 %tps%'  // пинг тпс
   - ''
   - <#f0f8ff>&m                                                </#FFFF00> //Снизучерта грандиент зависит от цвета (html цвет)
-
+```
 ## server.properties
 ```properties
 online-mode=false // значение true - вход только для лицензий
